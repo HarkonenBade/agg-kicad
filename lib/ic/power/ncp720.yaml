@@ -1,0 +1,14 @@
+name: NCP720
+datasheet: https://www.onsemi.com/pub/Collateral/NCP720-D.PDF
+footprint: agg:DFN-6-EP-ONSEMI
+description: Fixed LDO Voltage Regulator, 800 mV to 5.5 Vin, 110 mV Dropout, 1.0 - 1.8 Vout, 350 mA out
+ordercodes:
+  - [Farnell, '2706305']
+pins:
+- - - [BIAS, 4, pwrin]
+    - [IN, 6, pwrin]
+    - [EN, 3, in]
+- - - [OUT, 1, pwrout]
+    - [NC, 2, nc]
+    - [GND, 5, pwrin]
+    - [GND, EP, pwrin]

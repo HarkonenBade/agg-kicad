@@ -1513,6 +1513,36 @@ config = {
         "chip_shape": (26, 26.75),
         "pin_shape": (3.3, 1.09),
     },
+    
+    # WSON-6 2.1x2.1mm (TI)
+    "WSON-6-EP-TI-2.1x2.1": {
+        "rows": 2,
+        "pins": 6,
+        "pin_pitch": 0.65,
+        "row_pitch": 1.95,
+        "pad_shape": (0.45, 0.3),
+        "ep_shape": (1, 1.6),
+        "ep_paste_shape": (1.0, 0.7, 0.0, 0.2),
+        "ep_vias": (0.2, 0.2, 0.9),
+        "chip_shape": (2.1, 2.1),
+        "pin_shape": (-0.3, 0.3),
+    },
+
+
+    # QFN-32 5.0x5.0mm 0.5mm Pitch 3.3x3.3mm EP for Microchip USB3220
+    # IPC-7351B: QFN50P500X500X85-32N
+    "QFN-32-EP-MICROCHIP": {
+        "rows": 4,
+        "pins": 32,
+        "pin_pitch": 0.5,
+        "row_pitch": 4.75,
+        "pad_shape": (0.7, 0.25),
+        "ep_shape": (3.2, 3.2),
+        "ep_paste_shape": (0.8, 0.8, 0.25, 0.25),
+        "ep_vias": (0.3, 0.3, 0.6),
+        "chip_shape": (5.0, 5.0),
+        "pin_shape": (-0.4, 0.25),
+    },
 }
 
 

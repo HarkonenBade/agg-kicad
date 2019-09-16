@@ -1,0 +1,24 @@
+datasheet: https://www.nxp.com/docs/en/data-sheet/PTN5150A.pdf
+description: CC logic for USB Type-C applications
+footprint: ""
+name: PTN5150A
+ordercodes:
+  - [Farnell, '2890569']
+pins:
+- - - [ID,9,out]
+    - [EXT_SEL,11,out]
+    - [PORT,3,in]
+
+  - - [ADR/CON_DET,5,bidi]
+    - [SDA/OUT1,7,bidi]
+    - [SCL/OUT2,8,bidi]
+    - [INTB/OUT3,6,bidi]
+
+- - - [VDD,12,pwrin]
+
+  - - [VBUS_DET,4,passive]
+
+  - - [CC1,1,bidi]
+    - [CC2,2,bidi]
+
+  - - [GND,10,pwrin]

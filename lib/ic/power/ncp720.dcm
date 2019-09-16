@@ -1,0 +1,5 @@
+EESchema-DOCLIB  Version 2.0
+$CMP NCP720
+D Fixed LDO Voltage Regulator, 800 mV to 5.5 Vin, 110 mV Dropout, 1.0 - 1.8 Vout, 350 mA out
+F https://www.onsemi.com/pub/Collateral/NCP720-D.PDF
+$ENDCMP

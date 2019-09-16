@@ -1,0 +1,46 @@
+datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/00001792E.pdf
+description: Highly Integrated Full Featured Hi-Speed USB 2.0 ULPI Transceiver
+footprint: agg:QFN-32-EP-MICROCHIP
+name: USB3320C
+ordercodes:
+  - [Farnell, '3131803']
+pins:
+- - - [CPEN,17,out]
+    - [ID,23,passive]
+    - [VBUS,22,passive]
+    - [VBAT,21,pwrin]
+    - [VDD33,20,pwrin]
+
+  - - [DP,18,bidi]
+    - [DM,19,bidi]
+
+  - - [SPK_L,15,bidi]
+    - [SPK_R,16,bidi]
+
+  - - [GND,EP,pwrin]
+    - [N/C,12,nc]
+
+- - - [DATA7,13,bidi]
+    - [DATA6,10,bidi]
+    - [DATA5,9,bidi]
+    - [DATA4,7,bidi]
+    - [DATA3,6,bidi]
+    - [DATA2,5,bidi]
+    - [DATA1,4,bidi]
+    - [DATA0,3,bidi]
+    - [STP,29,in]
+    - [NXT,2,in]
+    - [DIR,31,in]
+    - [CLKOUT,1,out]
+    - [RESETB,27,in]
+    - [VDDIO,32,pwrin]
+    - [VDD18,28,pwrin]
+    - [VDD18,30,pwrin]
+
+  - - [REFCLK,26,in]
+    - [XO,25,in]
+    - [REFSEL0,8,in]
+    - [REFSEL1,11,in]
+    - [REFSEL2,14,in]
+
+  - - [RBIAS,24,passive]

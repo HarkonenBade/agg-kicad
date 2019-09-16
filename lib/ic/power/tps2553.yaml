@@ -1,0 +1,15 @@
+datasheet: http://www.ti.com/lit/ds/symlink/tps2553.pdf
+description: Precision Adjustable Current-Limited Power-Distribution Switch
+footprint: agg:WSON-10-EP-TI-2x3 
+name: TPS2553
+ordercodes:
+- [Farnell, '2781864']
+pins:
+- - - [IN,6,pwrin]
+    - [~FAULT,3,out]
+    - [EN,4,in]
+
+- - - [OUT,1,pwrout]
+    - [ILIM,2,passive]
+    - [GND,5,pwrin]
+    - [PAD,EP,pwrin]

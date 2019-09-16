@@ -1,0 +1,5 @@
+EESchema-DOCLIB  Version 2.0
+$CMP PTN5150A
+D CC logic for USB Type-C applications
+F https://www.nxp.com/docs/en/data-sheet/PTN5150A.pdf
+$ENDCMP

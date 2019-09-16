@@ -1,0 +1,16 @@
+name: MCP1810
+datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/20005623A.pdf
+footprint: ""
+description: Ultra-Low Quiescent Current LDO Regulator
+ordercodes:
+  - [Farnell, '2678434']
+pins:
+- - - [VIN, 7, pwrin]
+    - [~SHDN, 8, in]
+    - [NC, 5, nc]
+    - [GND, 1, pwrin]
+    - [EP, ep, pwrin]
+- - - [VOUT, 2, pwrout]
+    - [FB, 6, in]
+    - [NC, 3, nc]
+    - [NC, 4, nc]
