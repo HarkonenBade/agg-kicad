@@ -9,7 +9,7 @@ pins:
     - [~SHDN, 8, in]
     - [NC, 5, nc]
     - [GND, 1, pwrin]
-    - [EP, ep, pwrin]
+    - [EP, EP, pwrin]
 - - - [VOUT, 2, pwrout]
     - [FB, 6, in]
     - [NC, 3, nc]

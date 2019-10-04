@@ -1,7 +1,7 @@
 
 (module 0805 
   (layer F.Cu) 
-  (tedit 57654490) 
+  (tedit 5D962439) 
   (fp_text reference REF** 
     (at -2.4250 0 90) 
     (layer F.Fab) 
@@ -94,7 +94,7 @@
     (at 0.9000 0) 
     (size 1.1500 1.4500) 
     (layers F.Cu F.Mask F.Paste)) 
-  (model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl" 
+  (model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.step" 
     (at 
       (xyz 0 0 0)) 
     (scale 

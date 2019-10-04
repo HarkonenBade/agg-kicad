@@ -1,7 +1,7 @@
 
 (module "0201-L" 
   (layer F.Cu) 
-  (tedit 57654490) 
+  (tedit 5D962439) 
   (fp_text reference REF** 
     (at -1.4100 0 90) 
     (layer F.Fab) 
@@ -74,7 +74,7 @@
     (at 0.2800 0) 
     (size 0.3600 0.3200) 
     (layers F.Cu F.Mask F.Paste)) 
-  (model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0201.wrl" 
+  (model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0201_0603Metric.step" 
     (at 
       (xyz 0 0 0)) 
     (scale 

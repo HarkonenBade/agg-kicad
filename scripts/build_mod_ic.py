@@ -1543,6 +1543,48 @@ config = {
         "chip_shape": (5.0, 5.0),
         "pin_shape": (-0.4, 0.25),
     },
+
+    # QFN-48 7.0x7.0mm 0.5mm Pitch 3.5x3.5mm EP for Microchip KSZ9031RNCA
+    "QFN-48-EP-MICROCHIP": {
+        "rows": 4,
+        "pins": 48,
+        "pin_pitch": 0.5,
+        "row_pitch": 6.8,
+        "pad_shape": (0.5, 0.25),
+        "ep_shape": (3.0, 3.0),
+        "ep_paste_shape": (1.0, 1.0, 0.25, 0.25),
+        "ep_vias": (0.3, 0.3, 1.25),
+        "chip_shape": (7.0, 7.0),
+        "pin_shape": (-0.4, 0.25),
+    },
+
+    # VDFN-8 2.0x2.0mm 0.5mm Pitch 1.7x0.9mm EP for Microchip MCP1810
+    "DFN-8-EP-MICROCHIP-VDFN": {
+        "rows": 2,
+        "pins": 8,
+        "pin_pitch": 0.5,
+        "row_pitch": 2.1,
+        "pad_shape": (0.7, 0.3),
+        "ep_shape": (0.95, 1.95),
+        "ep_paste_shape": (0.95, 1.95, 0, 0),
+        "ep_vias": (0.3, 0.3, 0.7),
+        "chip_shape": (2.0, 2.0),
+        "pin_shape": (-0.3, 0.25),
+    },
+ 
+    # WSON-8 2.0x2.0mm (TI)
+    "WSON-8-EP-TI": {
+        "rows": 2,
+        "pins": 8,
+        "pin_pitch": 0.5,
+        "row_pitch": 1.9,
+        "pad_shape": (0.5, 0.25),
+        "ep_shape": (0.9, 1.6),
+        "ep_paste_shape": (0.9, 1.6, 0.0, 0.0),
+        "ep_vias": (0.2, 0.2, 0.9),
+        "chip_shape": (2.0, 2.0),
+        "pin_shape": (-0.3, 0.25),
+    },
 }
 
 

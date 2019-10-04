@@ -1,0 +1,5 @@
+EESchema-DOCLIB  Version 2.0
+$CMP TPS62163
+D 5Vout 1A, fixed, Buck Converter
+F http://www.ti.com/lit/ds/symlink/tps62160.pdf
+$ENDCMP

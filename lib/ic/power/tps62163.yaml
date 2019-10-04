@@ -1,0 +1,16 @@
+datasheet: http://www.ti.com/lit/ds/symlink/tps62160.pdf
+description: 5Vout 1A, fixed, Buck Converter
+footprint: agg:WSON-8-EP-TI
+name: TPS62163
+ordercodes:
+- [Farnell, '3007436']
+pins:
+- - - [VIN, 2, pwrin]
+    - [EN, 3, in]
+  - - [AGND, 4, pwrin]
+    - [PGND, 1, pwrin]
+    - [EP, EP, pwrin]
+- - - [SW, 7, passive]
+    - [VOS, 6, in]
+    - [PG, 8, od]
+    - [FB, 5, pwrin]
