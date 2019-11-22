@@ -1,0 +1,5 @@
+EESchema-DOCLIB  Version 2.0
+$CMP FT232RQ
+D USB to serial UART interface
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+$ENDCMP

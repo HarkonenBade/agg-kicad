@@ -7,10 +7,10 @@ ordercodes:
 pins:
 - - - [VIN, 7, pwrin]
     - [~SHDN, 8, in]
-    - [NC, 5, nc]
+    - [NC, 5, passive]
     - [GND, 1, pwrin]
     - [EP, EP, pwrin]
 - - - [VOUT, 2, pwrout]
     - [FB, 6, in]
-    - [NC, 3, nc]
-    - [NC, 4, nc]
+    - [NC, 3, passive]
+    - [NC, 4, passive]

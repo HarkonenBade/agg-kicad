@@ -9,6 +9,6 @@ pins:
     - [IN, 6, pwrin]
     - [EN, 3, in]
 - - - [OUT, 1, pwrout]
-    - [NC, 2, nc]
+    - [NC, 2, passive]
     - [GND, 5, pwrin]
     - [GND, EP, pwrin]
